@@ -1,15 +1,21 @@
-# 
+#  Grand graph challenge
+
+Provide brief answer to the question:
 ```
 n = 39000000
 T = 60 sec
 S = 29894944
 ```
 
+Give a printout of the algorithm implementation:
 ```
 To construct a random graph I have used G(n, p) model.
-To find the biggest component size I have implemented almost the same algorithm that was introduced at labs (BFS) in C++. I was careful to compute just the size of the components (and not store all of the vertices) and to pass as reference when possible. 
+To find the biggest component size I have implemented almost the same algorithm that was introduced at labs (BFS) in C++. I was careful to compute just the size of the components (and not store all of the vertices) and to pass as reference when possible.
+
+https://github.com/matjazmav/fri-1920-ina-ch02
 ```
 
+State your results as shown in the challenge instructions:
 ```
 n, m, Tg, Ts, T, S
 1000, 375, 0, 0, 0, 14
@@ -28,6 +34,7 @@ n, m, Tg, Ts, T, S
 40000000, 38010299, 38, 25, 63, 30693179
 ```
 
+State your processor details and the amount of memory: 
 ```
 Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
 8 GB + 4 GB
